@@ -1,0 +1,32 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+@media (min-width: 768px) {
+	.container {
+		max-width: 750px;
+	}
+}
+
+.form-control:focus {
+	border-color: #007bff;
+	box-shadow: none;
+}
+
+.form-group label {
+	font-weight: bold;
+}
+
+.btn-primary {
+	background-color: #007bff;
+	border-color: #007bff;
+}
+
+.btn-primary:hover {
+	background-color: #0069d9;
+	border-color: #0062cc;
+}
+
+.border {
+	border: 1px solid #dee2e6 !important;
+}
